@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "scds",
+  "info": {
+    "singularName": "scd",
+    "pluralName": "scds",
+    "displayName": "scd"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name2": {
+      "type": "string",
+      "maxLength": 17,
+      "required": true
+    },
+    "title2": {
+      "type": "richtext",
+      "maxLength": 300
+    },
+    "num2": {
+      "type": "float",
+      "required": true
+    },
+    "image2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

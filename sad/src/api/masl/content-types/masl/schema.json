@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "masls",
+  "info": {
+    "singularName": "masl",
+    "pluralName": "masls",
+    "displayName": "masl"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "maxLength": 17,
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "num": {
+      "type": "float",
+      "required": true
+    },
+    "title": {
+      "type": "richtext",
+      "maxLength": 300
+    }
+  }
+}
